@@ -12,6 +12,18 @@ Il y a 3 versions disponibles pour Ubuntu 22.04 (qui passent aussi sur Debian 12
 - Dynex-main-8e9f077-ubuntu-22.04-linux-x64-**core2**.zip
 - Dynex-main-8e9f077-ubuntu-22.04-linux-x64-**nocona**.zip
 
+Celle à choisir dépend de votre CPU :
+
+Source venant du Discord Dynex : https://discord.com/channels/1145567770872922223/1145683350967828600/1182390330763530420
+
+>CPU instructions/compiler options...) - Nocona (oldest), Core2 (newer), AVX2 (newest CPUs)
+>re: https://gcc.gnu.org/onlinedocs/gcc/x86-Options.html `-march=cpu-type`
+>```
+>nocona -  Improved version of Intel Pentium 4 CPU with 64-bit extensions, MMX, SSE, SSE2, SSE3 and FXSR instruction set support.
+>core2 -  Intel Core 2 CPU with 64-bit extensions, MMX, SSE, SSE2, SSE3, SSSE3, CX16, SAHF and FXSR instruction set support.
+>```
+>https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#Advanced_Vector_Extensions_2
+
 Dedans se trouve l'exécutable dynexwallet.
 Il faut le rendre exécutable (clic droit, propriétés, permissions, autoriser exécution comme un programme), ou une commande ` chmod +x dynexwallet` , c'est pareil
 
