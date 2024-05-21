@@ -2,7 +2,7 @@
 
 Objectif du tuto : installer un wallet Ergo sur Qubes OS
 
-![Qubes_Dynex](/IMG/Qubes-dynex01.jpg)
+![Qubes_Ergo](/IMG/Qubes-ergo01.jpg)
 
 ## 1) Création du Qube :
 
