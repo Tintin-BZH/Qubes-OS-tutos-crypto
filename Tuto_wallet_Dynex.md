@@ -1,23 +1,24 @@
 # Tuto installation du wallet Dynex dans Qubes OS
 
-Objectif ddu tuto : installer un wallet Dynex sur Qubes OS
+Objectif du tuto : installer un wallet Dynex sur Qubes OS
 
+![Qubes_Dynex](/IMG/Qubes-dynexO1.jpg)
 
 ## 1) Version pour Windows via Wine (fonctionne quelque-soit votre CPU)
 
 Oui, une version Windows sous Qubes OS, parfaitement :P
 La raison : le wallet pour Linux (Ubuntu) ne se lance pas sur certains processeurs anciens. L'alternative est d'y installer la version Windows du Wallet grâce au logiciel Wine.
 
-### Création du Qube :
+### 1.1) Création du Qube :
 
-Pour cela, créez votre Qube (VM) pour votre wallet Dynex, et choisissez lui le template Fedora (par défaut).
+Pour cela, créez votre Qube (VM) pour votre wallet Dynex (conseil : clonez le Qube "untrusted" si vous ne l'avez pasutilisé), et choisissez lui le template Fedora (par défaut).
 
-### Installation des dépendances dans le template :
+### 1.2) Installation des dépendances dans le template :
 
 Dans votre template Fedora, installez wine avec cette commande dans un terminal :
 `sudo dnf install wine`
 
-### Installation du wallet :
+### 1.3) Installation du wallet :
 
 Vous aurez besoin de Firefox pour télécharger le wallet, du gestionnaire du fichier Thunar et/ou du terminal pour extraire, le rendre exécutable et le lancer.
 
@@ -36,16 +37,16 @@ Commande pour le lancer (utile pour créer un raccourci) : `wine dynexwallet.exe
 Alors ma méthode n'est probablement pas la seule solution, mais elle marche :
 Le wallet Dynex indiqué comme compatible Ubuntu. j'ai donc choisi pour mon Qube (ma VM) le **template Debian 12 xfce** au lieu de Fedora 39 xfce. Car Debian est la distribution mère de Ubuntu, et aussi comme je connais mieux ^^ (ça marche peut-être aussi avec le template fedora donc, je n'ai juste pas testé)
 
-### Création du Qube :
+### 2.1) Création du Qube :
 
-Créez d'abord votre Qube (VM) pour votre wallet Dynex, et choisissez lui le template **Debian 12 Xfce**.
+Créez d'abord votre Qube (VM) pour votre wallet Dynex (conseil : clonez le Qube "untrusted" si vous ne l'avez pasutilisé), et choisissez lui le template **Debian 12 Xfce**.
 
-### Installation des dépendances dans le template :
+### 2.2) Installation des dépendances dans le template :
 
 Dans votre template Fedora, installez la librairie nécessaire avec cette commande dans un terminal :
 `sudo apt-get install libboost-all-dev`
 
-### Installation du wallet :
+### 2.3) Installation du wallet :
 
 Vous aurez besoin de Firefox pour télécharger le wallet, du gestionnaire du fichier Thunar et/ou du terminal pour extraire, le rendre exécutable et le lancer.
 
