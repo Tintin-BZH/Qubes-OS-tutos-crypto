@@ -1,6 +1,6 @@
 # Tutoriel : Créer des raccourci vers vos wallets dans Qubes OS
 
-Objectif du tuto : créerdes raccourcis pour faciliter lelancement de vos wallets, directement accessibles dans votre menu Qubes OS :
+Objectif du tuto : créer des raccourcis pour faciliter le lancement de vos wallets, directement accessibles dans votre menu Qubes OS :
 
 ![Qubes_Raccourcis00](/IMG/Qubes-raccourcis00.jpg)
 
