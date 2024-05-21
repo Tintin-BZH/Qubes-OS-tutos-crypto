@@ -2,7 +2,7 @@
 
 Objectif du tuto : installer un wallet Dynex sur Qubes OS
 
-![Qubes_Dynex](/IMG/Qubes-dynexO1.jpg)
+![Qubes_Dynex](/IMG/Qubes-dynex01.jpg)
 
 ## 1) Version pour Windows via Wine (fonctionne quelque-soit votre CPU)
 
