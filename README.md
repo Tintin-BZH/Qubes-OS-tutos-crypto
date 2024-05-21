@@ -6,3 +6,5 @@ Index des tutos :
 - [Créer des raccourci vers vos wallets](/Tuto_raccourci_wallet.md)
 - [Mettre Qubes OS à l'heure](/Tuto_Qubes_OS_heure.md)
 - [Wallet Dynex](/Tuto_wallet_Dynex.md)
+- [Wallet Ergo](/Tuto_wallet_Ergo.md)
+
