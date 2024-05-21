@@ -16,7 +16,7 @@ Enregistrez-la à un endroit connu.
 
 ## 2) Copier un raccourci .desktop existant du template
 
-Dans le Qube contenant votre wallet, ouvrez l'explorateur de fichiers Thunar et allez dans le dossier /usr/share/applications. Il contient toutes les applications de votre template. Copiez l'un d'entre eux.
+Dans le Qube contenant votre wallet, ouvrez l'explorateur de fichiers Thunar et allez dans le dossier /usr/share/applications. Il contient toutes les applications de votre template. Copiez l'un d'entre eux ayant l'extension .desktop
 
 ![Qubes_Raccourcis03](/IMG/Qubes-raccourcis03.jpg)
 
