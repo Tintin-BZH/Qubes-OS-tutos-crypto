@@ -1,4 +1,4 @@
-#Mettre Qubes OS sur le bon fuseau horaire
+# Mettre Qubes OS sur le bon fuseau horaire
 
 Menu Qubes OS en haut à gauche > Roue d'engrenage sur la gauche du menu > Other > Terminal Xfce
 
