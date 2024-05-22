@@ -28,9 +28,14 @@ Vous allez donc prendre le wallet GUI pour Windows :  Dynex-main-8e9f077-windows
 
 Téléchargez-le et dézippez-le. Vous y trouverez **dynexwallet.exe**, faites un clic droit dessus > Ouvrir avec > Wine (disponible si vous l'avez bien installé dans votre template)
 
+![Qubes_Dynex Wine](/IMG/Qubes-dynex02.jpg)
+
+
 Vous pouvez mettre ce choix par défaut pour qu'il s'ouvre au double clic laprochaine fois ;)
 
 Commande pour le lancer (utile pour créer un raccourci) : `wine dynexwallet.exe`
+
+---
 
 ## 2) Version pour Ubuntu (plus "propre" mais ne fonctionne pas sur certains anciens processeurs)
 
